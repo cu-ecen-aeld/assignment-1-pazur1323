@@ -1,0 +1,75 @@
+Running test with user ljbbnx
+CMake Error: The current CMakeCache.txt directory /home/ljbbnx/linux/assignment-1-pazur1323/build/CMakeCache.txt is different than the directory /home/ljbbnx/linux_course/assignment-1-pazur1323/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/ljbbnx/linux/assignment-1-pazur1323/CMakeLists.txt" does not match the source "/home/ljbbnx/linux_course/assignment-1-pazur1323/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+[ 16%] Built target unity
+[100%] Built target assignment-autotest
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read pazur1323 from conf/username.txt
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux/assignment-1-pazur1323/assignment-autotest/test/assignment1 ~/linux/assignment-1-pazur1323
+~/linux/assignment-1-pazur1323/finder-app ~/linux/assignment-1-pazur1323/assignment-autotest/test/assignment1 ~/linux/assignment-1-pazur1323
+First or second argument not specified
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+First or second argument not specified
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/WJ1mDi7fUjii9611DQHSpsGOxxDqtDrr
+The number of files are 10 and the number of matching lines are 10
+success
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified
+Test of assignment assignment1 failed with rc=1
+Running test with user ljbbnx
+CMake Error: The current CMakeCache.txt directory /home/ljbbnx/linux/assignment-1-pazur1323/build/CMakeCache.txt is different than the directory /home/ljbbnx/linux_course/assignment-1-pazur1323/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/ljbbnx/linux/assignment-1-pazur1323/CMakeLists.txt" does not match the source "/home/ljbbnx/linux_course/assignment-1-pazur1323/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+[ 16%] Built target unity
+[100%] Built target assignment-autotest
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read pazur1323 from conf/username.txt
+/home/ljbbnx/linux_course/assignment-1-pazur1323/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux/assignment-1-pazur1323/assignment-autotest/test/assignment1 ~/linux/assignment-1-pazur1323
+~/linux/assignment-1-pazur1323/finder-app ~/linux/assignment-1-pazur1323/assignment-autotest/test/assignment1 ~/linux/assignment-1-pazur1323
+First or second argument not specified
+First or second argument not specified
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/aVb92zQAAIq3ngqhLTBpVlHNa4bsO3We
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
